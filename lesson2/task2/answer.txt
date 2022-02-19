@@ -1,0 +1,7 @@
+Было создано 
+два deployment'a: echo-v1.yaml, echo-v2.yaml
+два ingress'a: example-ingress.yaml - обычный и canary-ingress.yaml - канареечный c весом 50%.
+При обращении по hostname canary.example.com Канареечный inress маршрутизирует трафик между двумя приложениями с 50% вероятностью. 
+
+
+ 
